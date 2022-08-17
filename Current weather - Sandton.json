@@ -1,0 +1,3 @@
+//https://api.openweathermap.org/data/2.5/weather?lat=-26.107567&lon=28.056702&appid=7483b161c1d105777c493e482e3dfd8f
+
+{"coord":{"lon":28.0567,"lat":-26.1076},"weather":[{"id":802,"main":"Clouds","description":"scattered clouds","icon":"03d"}],"base":"stations","main":{"temp":288.69,"feels_like":286.77,"temp_min":287.89,"temp_max":289.45,"pressure":1022,"humidity":18},"visibility":10000,"wind":{"speed":2.06,"deg":210},"clouds":{"all":30},"dt":1660564859,"sys":{"type":2,"id":2005523,"country":"ZA","sunrise":1660538211,"sunset":1660578480},"timezone":7200,"id":994858,"name":"Inanda","cod":200}
