@@ -1,0 +1,12 @@
+Https://breakingbadapi.com/api/episodes
+
+const response = pm.response.json()
+// const dates = response.map(tool => tool.air_date, tool => tool.title)
+// console.log(dates)
+
+
+for (var i = 0; i < response.length; i++){
+    if (response[i].air_date.startsWith("08-12")) {
+        console.log(response[i].title)
+    }
+}

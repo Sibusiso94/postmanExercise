@@ -1,0 +1,20 @@
+Https://breakingbadapi.com/api/deaths
+
+const response = pm.response.json()
+
+var death = 0
+var season = ""
+
+for (var i = 0; i < response.length; i++) {
+    
+    if (response[i].number_of_deaths > death) {
+        death = response[i].number_of_deaths
+        // console.log(response[i].number_of_deaths)
+        season = response[i].season
+        console.log(season)
+    }
+
+}
+
+
+

@@ -1,0 +1,9 @@
+var response = pm.response.json()
+var character = ""
+
+for (var i = 0; i < response.length; i++) {
+    if (response[i].portrayed == "Patrick Fabian") {
+        console.log(response[i].name)
+        console.log(response[i].nickname)
+    }
+}
